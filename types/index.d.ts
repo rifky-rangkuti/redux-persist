@@ -23,7 +23,7 @@
 
 // This is not single module. There are many module included by reference directives.
 // tslint:disable-next-line: no-single-declare-module
-declare module "redux-persist" {
+declare module "@rifkyrangkuti/redux-persist" {
   export { default as persistReducer } from 'redux-persist/es/persistReducer';
   export { default as persistCombineReducers } from 'redux-persist/es/persistCombineReducers';
   export { default as persistStore } from 'redux-persist/es/persistStore';
