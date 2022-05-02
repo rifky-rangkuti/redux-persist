@@ -1,4 +1,4 @@
-declare module "redux-persist/integration/react" {
+declare module "@rifkyrangkuti/redux-persist/integration/react" {
   import { ReactNode, PureComponent } from "react";
   import { Persistor } from "redux-persist/es/types";
 
